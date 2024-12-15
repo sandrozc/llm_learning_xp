@@ -20,7 +20,7 @@ def get_llm():
     llm = BedrockChat(
         model_id="anthropic.claude-3-sonnet-20240229-v1:0",  # set the foundation model
         model_kwargs=model_kwargs,  # configure the inference parameters
-        credentials_profile_name='<default_profile>',
+        credentials_profile_name="<default_profile>",
     )
 
     return llm
@@ -32,7 +32,7 @@ def get_retriever():  # creates and returns an in-memory vector store to be used
     retriever = AmazonKnowledgeBasesRetriever(
         knowledge_base_id="J9ILKVUWWO",  # 👈 Set your Knowledge base ID
         retrieval_config={"vectorSearchConfiguration": {"numberOfResults": 4}},
-        credentials_profile_name='<default_profile>',
+        credentials_profile_name="<default_profile>",
     )
 
     return retriever

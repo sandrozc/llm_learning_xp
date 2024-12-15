@@ -122,7 +122,7 @@ pip install -r ./Project/requirements.txt
 
 - Ensure all API calls reference your configured AWS profile name
 - Replace `'<default_profile>'` in the code with your profile name
-  ![Profile Configuration](images/image_4.png)
+
 
 ## Running the Application
 
@@ -133,7 +133,7 @@ pip install -r ./Project/requirements.txt
    ```
 
 3. Open the provided local URL in your browser to interact with the chatbot
-   ![Chatbot Interface](/images/Capture\ d\'écran\ 2024-05-22\ à\ 19.33.12.png)
+     ![Chatbot Interface](images/image_4.png)
 
 ## Conclusion
 

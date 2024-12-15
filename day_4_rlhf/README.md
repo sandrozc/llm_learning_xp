@@ -1,25 +1,15 @@
-# Retrieval Augmented Generation (RAG) Course
+#  Reinforcement Learning from Human Feedback & Model Evaluation Course
 
 ## Course Goals
 The primary objectives of this course are to:
-- Understand the fundamentals of Retrieval Augmented Generation (RAG)
-- Learn how to implement RAG techniques using state-of-the-art tools and frameworks
-- Explore multimodal RAG applications
+- Understand the fundamentals of Reinforcement Learning from Human Feedback (RLHF)
+- Understand the common Model Evaluation Techniques
 
 ## Course Agenda
 
-1. Retrieval Augmented Generation Fundamentals Presentation
-2. Amazon Bedrock Presentation (Live Demo)
-3. Local Code: [Local Re-ranker Notebook](./reranking.ipynb)
-4. [Naive RAG (Hugging Face)](https://huggingface.co/learn/cookbook/rag_with_hf_and_milvus)
-5. [Multimodal RAG (Hugging Face)](https://huggingface.co/learn/cookbook/faiss_with_hf_datasets_and_clip)
-6. This week deliverable [Project](../Project)
-
-## Prerequisites
-1. Create a Hugging Face Account
-   - Visit [Hugging Face](https://huggingface.co/)
-   - Generate an access token
-   - Keep the token secure for use during the course
+1. Reinforcement Learning from Human Feedback & Model Evaluaiton Presentation
+2. Local Code using Ragas: [Local Ragas Notebook](./rag_evaluation.ipynb)
+3. This week deliverable [Project](../Project)
 
 ## Setting Up Your Development Environment
 
@@ -79,4 +69,3 @@ source .venv/bin/activate
    ```bash
    export AWS_PROFILE=myprofile
    ```
-

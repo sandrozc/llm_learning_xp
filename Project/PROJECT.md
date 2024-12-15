@@ -61,35 +61,3 @@ The goal of this project is to give you hands-on experience in designing and bui
 3. Source code and documentation.  
 
 This project provides you with practical experience in LLMs, RAG, and system design while building an end-to-end application.
-
-
-
-
-
-## Setting Up Your Development Environment
-
-### Creating a Virtual Environment
-
-#### Windows Users
-1. Open PowerShell or Command Prompt as Administrator
-2. Ensure Python is installed and accessible from the command line
-3. Navigate to your project directory:
-   ```powershell
-   cd Code\
-   ```
-4. Create the virtual environment:
-   ```powershell
-   python -m venv .venv
-   ```
-
-#### Activating the Virtual Environment
-
-##### Windows
-```powershell
-.venv\Scripts\activate
-```
-
-##### macOS/Linux
-```bash
-source .venv/bin/activate
-```

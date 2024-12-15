@@ -1,5 +1,0 @@
-1) Cours Agent+ Syst design 
-2) Démo Agent AWS agent-quick-start-h34g2 (does multiplication for 2 numbers and access KB)
-3) Local test avec Inline agents
-4) Cours Infernece Optimization
-5) Project

@@ -1,25 +1,17 @@
-# Retrieval Augmented Generation (RAG) Course
+# Agentic Workflow & MLOPs System Design
 
 ## Course Goals
 The primary objectives of this course are to:
-- Understand the fundamentals of Retrieval Augmented Generation (RAG)
-- Learn how to implement RAG techniques using state-of-the-art tools and frameworks
-- Explore multimodal RAG applications
+- Understand the fundamentals of Agentic Workflow & Some MLOPs System Desing
+- Learn how to implement inline Amazon Bedrock Agent
+- Understand LLM Inference tradeoffs
 
 ## Course Agenda
 
-1. Retrieval Augmented Generation Fundamentals Presentation
-2. Amazon Bedrock Presentation (Live Demo)
-3. Local Code: [Local Re-ranker Notebook](./reranking.ipynb)
-4. [Naive RAG (Hugging Face)](https://huggingface.co/learn/cookbook/rag_with_hf_and_milvus)
-5. [Multimodal RAG (Hugging Face)](https://huggingface.co/learn/cookbook/faiss_with_hf_datasets_and_clip)
-6. This week deliverable [Project](../Project)
-
-## Prerequisites
-1. Create a Hugging Face Account
-   - Visit [Hugging Face](https://huggingface.co/)
-   - Generate an access token
-   - Keep the token secure for use during the course
+1.  Agentic Workflow & MLOPs System Desing & LLM Inference Presentation
+2. Amazon Bedrock Agent Presentation (Live Demo)
+3. Local Code: [Inline Agent Notebook](./inline_agent.ipynb)
+4. Project presentation [Project](../Project)
 
 ## Setting Up Your Development Environment
 

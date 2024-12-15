@@ -1,8 +1,0 @@
-1) Slides
-2) VSCODE
-3) Google Colab PEFT https://colab.research.google.com/github/huggingface/peft/blob/master/examples/int8_training/Finetune_flan_t5_large_bnb_peft.ipynb
- 
-#TODO
-- Understand better the train.py script
-- Check the Google Colab PEFT
-- Make sure to give students access to AWS API KEY to Do eval
