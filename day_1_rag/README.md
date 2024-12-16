@@ -10,6 +10,7 @@ The primary objectives of this course are to:
 
 1. Retrieval Augmented Generation Fundamentals Presentation
 2. Amazon Bedrock Presentation (Live Demo)
+2. Local Code: [Local bi vs cross-encoder Notebook](./bi_cross_encoder.ipynb)
 3. Local Code: [Local Re-ranker Notebook](./reranking.ipynb)
 4. [Naive RAG (Hugging Face)](https://huggingface.co/learn/cookbook/rag_with_hf_and_milvus)
 5. [Multimodal RAG (Hugging Face)](https://huggingface.co/learn/cookbook/faiss_with_hf_datasets_and_clip)
