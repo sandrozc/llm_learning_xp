@@ -26,11 +26,11 @@ In this lab, we will build an advanced chatbot application using Amazon Bedrock 
 ├── docs
 │   └── 2022-Shareholder-Letter.pdf
 ├── images
-│   ├── xxxx.png
-│   ├── image_1.png
-│   ├── image_2.png
-│   ├── image_3.png
-│   └── image_4.png
+│   ├── arnSecret.png
+│   .
+│   .
+│   ├
+│   └── sync.png
 └── main.ipynb
 ```
 
@@ -77,7 +77,7 @@ pip install -r ./Project/requirements.txt
    Enter:
    - Access Key ID
    - Secret Access Key
-   - Default region name: eu-west-3
+   - Default region name: us-east-1
 
 2. Verify your profile:
    ```bash
@@ -96,34 +96,73 @@ pip install -r ./Project/requirements.txt
    ```python
    bucket_name = "mybucketname1234"
    ```
-3. Follow the notebook cells to create the bucket and upload the document
 
-### 5. Create Knowledge Base in Amazon Bedrock
-
-1. Go to Amazon Bedrock Service and select "Knowledge Base"
-   ![Knowledge Base Selection](images/image_1.png)
-
-2. Create a new Knowledge Base using the PDFs uploaded to your S3 bucket
-   - Select the S3 bucket (not the individual file)
-   - Choose OpenSearch Vector Database
-   ![OpenSearch Selection](images/image_2.png)
-
-3. Wait for the Knowledge Base to be ready and sync
-
-## Code Integration
-
-### 1. Get Knowledge Base ID
-
-- Locate the Knowledge Base ID in the Amazon Bedrock console
-- Insert it into your code where required
-  ![Knowledge Base ID](images/image_3.png)
-
-### 2. Add AWS Profile to API Calls
+3. Add AWS Profile to API Calls
 
 - Ensure all API calls reference your configured AWS profile name
 - Replace `'<default_profile>'` in the code with your profile name
 
+4. Follow the notebook cells to create the bucket and upload the document
 
+
+### 5. Pinecone Setup
+1. Create an account on https://login.pinecone.io
+2. Do the basic setup (Q&A Chatbot, AWS ect)
+3. Save somewhere the **apiKey** !
+3. Create an index
+![IndexCreation](images/create_index.png)
+4. Setup the index: give a name, enter the dimension of the vectors to **1024** and leave all the other values by default.
+![IndexSetup](images/index_setup.png)
+5. Save somewhere the index host address
+![Endpoint](images/endpoint.png)
+
+
+### 6. Secret Manager Setup
+1. Log into the AWS Console. You must be on  **us-east-1** region !
+2. Go to Secret Manager Service
+![SManager](images/smanager.png)
+2. Create a secret
+![createSecret](images/createsecret.png)
+3. Enter the key value pair (apiKey and the value you saved)
+![kvPair](images/kvPair.png)
+4. Give a name to your Secret (Please use a personal prefix like your name)
+![secretName](images/secretName.png)
+5. Finish the process leaving all the values by default
+6. Once your secret created, click on it and retreive the arn as follow
+![arnSecret](images/arnSecret.png)
+
+
+### 7. Create Knowledge Base in Amazon Bedrock
+
+1. Go to Amazon Bedrock Service, select "Knowledge Base" and create a vector store
+   ![Knowledge Base Selection](images/createVectorStore.png)
+2. Select S3 as a Data Source, Give a name to this Knowledge Base. (Please use a personal prefix like your name)
+3. Browse S3 and select the s3 bucket you created earlier.
+![browseS3](images/browseS3.png)
+4. Make sure the finale path as a **/** at the end.
+![s3Path](images/s3Path.png)
+5. Select Titan Text Embeddings v2 fot he Embeddings Model and Pinecone as the VectorDB.
+![selectEmbed](images/selectEmbed.png)
+6. Enter the Pinecone Infiormation Required, leave the rest by default.
+![enterPineconeInfo](images/enterPineconeInfo.png)
+7. Once the Knowledge Base Created by Bedrock you can Sync the data.
+![sync](images/sync.png)
+7. Retrieve the knowledge base ID of your Knowledge Base.
+![kbId](images/kbId.png)
+8. Once done you can test you RAG using the user interface and select the conversational LLM you want.
+![interface](images/interface.png)
+
+
+
+## 8. Code Integration
+
+1. Add AWS Profile to API Calls
+
+- Ensure all API calls reference your configured AWS profile name
+- Replace `'<default_profile>'` in the code with your profile name
+
+2. Put you knowledge base ID into the code
+![kbIdCode](images/kbIdCode.png)
 ## Running the Application
 
 1. Navigate to the project root folder

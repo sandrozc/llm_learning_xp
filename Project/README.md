@@ -11,7 +11,7 @@ The goal of this project is to give you hands-on experience in designing and bui
 
 ### **Steps to Build Your Chatbot**  
 
-#### **Day 1: Concept and Design**  
+#### **Concept and Design**  
 1. **Understand the Problem Domain:**  
    - Choose a domain for your chatbot (e.g., customer support, education, or healthcare).  
    - Define key functionalities.  
@@ -24,7 +24,7 @@ The goal of this project is to give you hands-on experience in designing and bui
    - Set you credentials  
    - Familiarize yourself with S3 and Amazon Bedrock.  
 
-#### **Day 2: Knowledge Base and Data Preparation**  
+#### **Knowledge Base and Data Preparation**  
 1. **Create a Knowledge Base:**  
    - Gather relevant documents for your chatbot’s domain.  
    - Preprocess and format data (e.g., clean up text, convert to JSON).  
@@ -33,7 +33,7 @@ The goal of this project is to give you hands-on experience in designing and bui
 2. **Build an Index:**  
    - Using Amazon Bedrock Knowledge Base, build a VectorDB
 
-#### **Day 3: Model Setup**  
+#### **Model Setup**  
 1. **Select a Pre-trained Model:**  
    - Use LLM available on Amazon Bedrock like **Claude 3 Haiku/ Mistral ...**
 
@@ -41,7 +41,7 @@ The goal of this project is to give you hands-on experience in designing and bui
    - Combine retrieval (from the index) with generation (model inference).  
    - Test the pipeline locally using sample questions.  
  
-#### **Day 4: Frontend and Final Testing**  
+#### **Frontend and Final Testing**  
 **Create a Simple User Interface (UI):**  
    - Build a web-based or terminal-based chatbot interface using Streamlit.  
    - Make sure you can create multiple conversation
