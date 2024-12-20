@@ -9,7 +9,7 @@ The primary objectives of this course are to:
 
 ## Course Agenda
 
-1. Agentic Workflow & MLOPs System Desing & LLM Inference Presentation
+1. Agentic Workflow & LLM Inference Presentation
 2. Amazon Bedrock Agent Presentation (Live Demo)
 3. TP Build Your Agent
    - Step by Step Guide Here [instruction bellow](#Restaurant-Order-Agent)
