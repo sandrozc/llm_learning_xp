@@ -303,6 +303,18 @@ def lambda_handler(event, context):
         logger.info(f"ResponseBody: {json.dumps(responseBody)}")
         action_response = format_response_body(event, responseBody)
         return action_response
+
+    if function == 'get_all_orders':
+        orders = get_orders(sessionId)
+        responseBody = {
+            "TEXT": {
+                "body": f"The final list of orders is {orders}!"
+            }
+        }
+
+        logger.info(f"ResponseBody: {json.dumps(responseBody)}")
+        action_response = format_response_body(event, responseBody)
+        return action_response
 ```
 
 Make sure to input the Name of the table you just created here:
