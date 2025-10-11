@@ -1,3 +1,0 @@
-ragatouille
-numpy
-sentence-transformers
