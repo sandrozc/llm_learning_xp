@@ -58,8 +58,7 @@ By the end of this module, you will:
 ### 4. RAG Evaluation (`4_rag_evaluation.ipynb`)
 
 **What you'll learn:**
-- Evaluate retrieval quality with Precision, Recall, MRR, and NDCG
-- Measure generation quality with faithfulness and relevance metrics
+- Evaluate retrieval quality with Precision, Recall
 - Build comprehensive evaluation pipelines
 - Visualize system performance with dashboards
 - Apply best practices for continuous evaluation
