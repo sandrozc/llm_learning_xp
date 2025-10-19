@@ -1,63 +1,49 @@
-### Project: Building Your Own Chatbot Application  
-#### Objective  
-The goal of this project is to give you hands-on experience in designing and building a chatbot application. By the end of the week, you will have developed a working chatbot using Retrieval-Augmented Generation (RAG) techniques, incorporating a on-demand model from Amazon Bedrock
+# 🧑‍⚖️ Legal Assistant Chatbot – Proof of Concept (POC)
 
-#### Key Technologies  
-1. **Large Language Models (LLMs):** Understanding the core model functionalities.  
-2. **RAG (Retrieval-Augmented Generation):** Combining LLMs with external knowledge retrieval for more accurate and domain-specific responses.  
-3. **AWS Services:** S3 & Amazon Bedrock
+## 📘 Project Scenario
 
----
+You are part of a Law Firm where your colleagues rely on your technical expertise to enhance the quality and efficiency of their daily work.
 
-### **Steps to Build Your Chatbot**  
+The top management has set an ambitious goal:
 
-#### **Concept and Design**  
-1. **Understand the Problem Domain:**  
-   - Choose a domain for your chatbot (e.g., customer support, education, or healthcare).  
-   - Define key functionalities.  
+> ⚡ Increase lawyer productivity by 50% — meaning the firm should be able to handle 50% more case studies, ultimately boosting overall profitability.
 
-2. **Sketch the System Design:**  
-   - Identify components: Local model, retrieval engine, database for external knowledge, and the user interface (UI).  
-   - Visualize data flow from user input to final response.  
+As a first step toward this goal, you propose to develop a Lawyer Assistant Chatbot designed to accelerate lawyers’ daily research, drafting, and case analysis tasks.
 
-3. **Set Up AWS:**  
-   - Set you credentials  
-   - Familiarize yourself with S3 and Amazon Bedrock.  
-
-#### **Knowledge Base and Data Preparation**  
-1. **Create a Knowledge Base:**  
-   - Gather relevant documents for your chatbot’s domain.  
-   - Preprocess and format data (e.g., clean up text, convert to JSON).  
-   - Upload to S3 Bucket
-
-2. **Build an Index:**  
-   - Using Amazon Bedrock Knowledge Base, build a VectorDB
-
-#### **Model Setup**  
-1. **Select a Pre-trained Model:**  
-   - Use LLM available on Amazon Bedrock like **Claude 3 Haiku/ Mistral ...**
-
-2. **Implement the RAG Pipeline:**  
-   - Combine retrieval (from the index) with generation (model inference).  
-   - Test the pipeline locally using sample questions.  
- 
-#### **Frontend and Final Testing**  
-**Create a Simple User Interface (UI):**  
-   - Build a web-based or terminal-based chatbot interface using Streamlit.  
-   - Make sure you can create multiple conversation
-   - Integrate the UI with your backend API.  
-
-**BONUS**: 
-    - Use an agent to redirect the user request to ether the Knowledge Base or simply the LLM 
-
-#### **Final Presentation**  
-- Present your chatbot to the class, demonstrating its functionalities.  
+Management supports your vision and has requested a Proof of Concept (POC) to demonstrate the feasibility, performance, and potential impact of such a solution.
 
 ---
 
-### **Deliverables**  
-1. Working chatbot application.  
-2. System design diagram.  
-3. Source code and documentation.  
+## 🎯 Your Mission
 
-This project provides you with practical experience in LLMs, RAG, and system design while building an end-to-end application.
+You are asked to design and implement a functional POC of the Legal Assistant Chatbot. Specifically, you should:
+
+### 1. 🧱 Design a Solution Architecture
+- Draft a design pattern or system architecture for the chatbot.
+- Clearly show how each component interacts (retrieval, generation, interface, and evaluation).
+
+### 2. 🔍 Implement a RAG (Retrieval-Augmented Generation) Pipeline
+- Use law-related texts from your preferred legal domain (e.g., corporate law, criminal law, intellectual property, etc.).
+- Integrate retrieval and generation steps to ensure accurate and context-aware responses.
+
+### 3. 📊 Design an Evaluation Framework
+- Define and implement an evaluation pipeline for both:
+  - Retrieval quality 
+  - Generation quality 
+
+### 4. 💬 Build a Simple Chatbot Interface
+- Create a minimal user interface to demonstrate the chatbot in action.
+- Integrate all components (RAG + evaluation) into a working prototype.
+
+---
+
+## 🧾 Deliverables
+
+Your final submission should include:
+
+### 1. 📑 Approach Presentation
+- Overview of your architecture, implementation approach, and evaluation/observability strategy.
+
+### 2. 🎥 Demo Video
+- A short demo video showcasing your chatbot in action.
+- Highlight a few quantitative metrics or performance results.
