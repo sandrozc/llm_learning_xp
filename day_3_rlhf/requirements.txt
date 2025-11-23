@@ -1,6 +1,0 @@
-python-dotenv
-llama-index-embeddings-bedrock
-llama-index-llms-bedrock
-llama-index-core
-ragas 
-langchain_aws

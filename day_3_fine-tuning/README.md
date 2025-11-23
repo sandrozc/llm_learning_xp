@@ -12,5 +12,3 @@ The primary objectives of this course are to:
 2. [Flan T5 FIne Tuning](https://colab.research.google.com/github/huggingface/peft/blob/master/examples/int8_training/Finetune_flan_t5_large_bnb_peft.ipynb)
 3. Expected Project Presentation
 4. Autonomus work on [Project](../Project)
-
-#TODO: Expected Project Explaination
