@@ -7,6 +7,7 @@
 
 
 #### Ressources
+- [Langfuse Prompt Management](https://langfuse.com/docs/prompt-management/overview)
 - [GPT-5 Prompt Guide](https://cookbook.openai.com/examples/gpt-5/gpt-5_prompting_guide)
 - [Claude Prompt engineering overview](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/overview)
 - [A Systematic Survey of Prompt Engineering in Large Language Models: Techniques and Applications](https://arxiv.org/abs/2402.07927)
