@@ -29,11 +29,11 @@ You are asked to design and implement a functional POC of the Legal Assistant Ch
 - Define and implement an evaluation pipeline for both:
 - Retrieval & Generation quality 
 
-#### 3. Add Observability
+#### 4. Add Observability
 - Define what is important to observe and why
 - Render this information using open-source tools
 
-#### 4. Build a Simple application Interface
+#### 5. Build a Simple application Interface
 - Create a minimal user interface to demonstrate the application in action.
 
 ---
