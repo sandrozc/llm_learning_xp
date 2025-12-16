@@ -1,14 +1,9 @@
 # Fine Tuning Course
 
-## Course Goals
-The primary objectives of this course are to:
-- Understand the fundamentals of pre-training and fine-tuning
-- Learn the basics of Amazon SageMaker abstraction and experiment tracking
-- Explore quantizationa and Parameter Efficient Fine-Tuning (PEFT)
+#### Exercices
+1) [Flan T5 FIne Tuning](https://colab.research.google.com/github/huggingface/peft/blob/master/examples/int8_training/Finetune_flan_t5_large_bnb_peft.ipynb)
 
-## Course Agenda
 
-1. Fine-Tuning Presentation
-2. [Flan T5 FIne Tuning](https://colab.research.google.com/github/huggingface/peft/blob/master/examples/int8_training/Finetune_flan_t5_large_bnb_peft.ipynb)
-3. Expected Project Presentation
-4. Autonomus work on [Project](../Project)
+#### Ressources
+- [Fine Tuning Pre-trained model](https://huggingface.co/learn/llm-course/chapter3/1)
+- [Fine-tune LLM](https://huggingface.co/learn/llm-course/chapter11/1)
