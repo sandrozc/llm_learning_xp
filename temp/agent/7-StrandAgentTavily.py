@@ -14,7 +14,6 @@ from typing import Dict, List, Any, Optional
 from strands import Agent, tool
 from strands.models.gemini import GeminiModel
 from langfuse import observe
-from mcp import stdio_client, StdioServerParameters
 from strands.tools.mcp import MCPClient
 from dotenv import load_dotenv
 
