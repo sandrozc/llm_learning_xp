@@ -1,0 +1,9 @@
+strands-agents
+strands-agents-tools
+strands-agents-builder
+strands-agents[otel]
+langfuse
+python-dotenv
+uv
+strands-agents[gemini]
+fastmcp
